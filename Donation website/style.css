@@ -1,0 +1,51 @@
+.bg-orange{
+    background-color: #FF5F15 !important;
+    color: white !important;
+}
+.text-orange{
+    color: #FF5F15 !important;
+}
+.navbar-toggler {
+    border-color: white !important;
+    outline: none !important;
+}
+.table-orange{
+    --bs-table-bg: #FF5F15 !important;
+    --bs-table-color: white !important;
+   
+}
+
+.navbar-toggler:focus{
+      outline: 0 !important;
+      text-decoration: none !important;
+      box-shadow: none !important;
+}
+.btn-orange{
+    background-color: #FF5F15;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+.text-overflow{
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 1;
+   overflow: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+    border-top: 1px solid #FF5F15;
+    padding-top: 10px;
+}
