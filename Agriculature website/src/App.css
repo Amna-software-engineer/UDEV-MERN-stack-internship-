@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+    .stikcy-sidebar{
+        position: sticky !important;
+        top: 140px;
+        align-self: flex-start;
+    }
+}
+@media (max-width: 767px) {
+    .stikcy-sidebar{
+        position: static !important;
+    }
+}
